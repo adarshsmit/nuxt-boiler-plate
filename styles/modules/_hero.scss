@@ -1,0 +1,94 @@
+._hero {
+  background-image: linear-gradient(241deg, rgba(240, 90, 48, 0.41) 0%, rgba(255, 175, 42, 0.41) 90%);
+  padding-bottom: 0px;
+  overflow: hidden;
+  &.product_hero {
+    background-image: linear-gradient(245deg, #ffdb9f 100%, #fff6e6 1%);
+  }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    padding: 130px 0 120px 0;
+    .hero_bg {
+      img {
+        max-width: 100%;
+      }
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    padding: 50px 0 100px 0;
+  }
+  @media screen and (max-width: 767px) {
+    padding: 70px 0;
+  }
+  .hero_bg {
+    img {
+      @media screen and (min-width: 768px) and (max-width: 1024px) {
+        max-width: 100%;
+        position: static;
+      }
+      @media screen and (max-width: 992px) {
+        position: static;
+        max-width: 100%;
+        height: 330px;
+      }
+      @media screen and (min-width: 993px) and (max-width: 1200px) {
+        left: -250px;
+      }
+      @media screen and (min-width: 1201px) and (max-width: 1400px) {
+        left: 0px;
+        height: 720px;
+      }
+      @media screen and (min-width: 1401px) and (max-width: 1600px) {
+        left: -50px;
+        height: 800px;
+      }
+      position: relative;
+      bottom: 0px;
+      z-index: 2;
+    }
+  }
+
+  &::after {
+    content: "";
+    @include absolute($top: 0, $left: 0, $right: unset, $bottom: unset, $transform: translate(0, 0));
+    @include height-width($width: 100%, $height: 100%);
+    @include background-image(
+      $image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #ff5a2b 67%),
+      $position: center center,
+      $size: cover
+    );
+    opacity: 0.1;
+    z-index: -1;
+  }
+  .sales_pitch {
+    .title {
+      @include Text-Style;
+      @media screen and (min-width: 768px) and (max-width: 1200px) {
+        white-space: normal;
+      }
+      @media screen and (min-width: 1201px) {
+        font-size: 70px;
+        white-space: nowrap;
+      }
+      .highlighted_text {
+        @include Text-Style-8;
+        @media screen and (min-width: 1201px) {
+          font-size: 70px;
+        }
+      }
+    }
+    .description {
+      @include Text-Style-2;
+    }
+  }
+  .wave {
+    @include absolute($top: unset, $left: 0, $right: unset, $bottom: 0, $transform: translate(0, 0));
+    z-index: 1;
+    @media screen and (min-width: 993px) and (max-width: 1024px) {
+      bottom: -65px;
+    }
+    @media screen and (min-width: 1025px) {
+      width: 100%;
+      bottom: -75px;
+    }
+  }
+}

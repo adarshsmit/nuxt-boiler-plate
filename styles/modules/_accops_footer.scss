@@ -1,0 +1,48 @@
+._accops_footer {
+  background-color: $black;
+  .secondary_navigation_wrapper {
+    margin-bottom: 30px;
+    @media screen and (min-width: 993px) {
+      margin-bottom: 50px;
+    }
+  }
+  .title {
+    @include Text-Style-26;
+    @media screen and (min-width: 993px) {
+      text-align: left;
+    }
+  }
+  .bottom_bg {
+    background-color: $black-two;
+  }
+  .foot_nav {
+    text-align: center;
+    @media screen and (min-width: 993px) {
+      text-align: left;
+    }
+  }
+  .foot_nav * {
+    @include Text-Style-27;
+  }
+  .bottom_nav_wrapper {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .bottom_nav {
+    @include Text-Style-28;
+    padding: 6px 0;
+    a {
+      @include Text-Style-28;
+    }
+    @media screen and (min-width: 993px) {
+      padding: 0 6px;
+    }
+  }
+  .copyright {
+    @include Text-Style-28;
+    margin-top: 25px;
+    @media screen and (min-width: 993px) {
+      margin-top: 0;
+    }
+  }
+}

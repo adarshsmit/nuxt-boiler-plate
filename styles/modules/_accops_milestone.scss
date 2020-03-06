@@ -1,0 +1,44 @@
+._accops_milestone {
+  .section_head {
+    margin-bottom: 30px;
+    @media screen and (min-width: 993px) {
+      margin-bottom: 100px;
+    }
+  }
+  .milestone {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+    @media screen and (min-width: 993px) {
+      margin-bottom: 0;
+    }
+    .milestone_image {
+      height: 50px;
+      width: 50px;
+      object-fit: contain;
+      @media screen and (min-width: 993px) {
+        height: 80px;
+        width: 80px;
+        object-fit: contain;
+      }
+    }
+    .content_wrapper {
+      @media screen and (min-width: 993px) {
+        padding-left: 20px;
+      }
+    }
+    .number {
+      @include Text-Style-22;
+      padding: 10px 5px;
+      @media screen and (min-width: 993px) {
+        padding: 0 0 10px 0px;
+      }
+    }
+    .title {
+      @include Text-Style-21;
+    }
+  }
+}

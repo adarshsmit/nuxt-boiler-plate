@@ -1,0 +1,32 @@
+.slick-dots {
+  position: static !important;
+  li {
+    width: 7px !important;
+    height: 7px !important;
+    border-radius: 100%;
+    border: solid 1px $tomato-two;
+    transition: 0.3s all ease-in-out;
+    @media screen and (min-width: 993px) {
+      width: 10px !important;
+      height: 10px !important;
+    }
+    &.slick-active {
+      background: $tomato-two;
+      width: 25px !important;
+      border-radius: 50px;
+    }
+  }
+  button {
+    display: none !important;
+  }
+}
+.slick-dots {
+  margin-top: 5px !important;
+
+  @media screen and (min-width: 993px) {
+    margin-top: 30px;
+  }
+}
+.slick-slider {
+  cursor: pointer;
+}

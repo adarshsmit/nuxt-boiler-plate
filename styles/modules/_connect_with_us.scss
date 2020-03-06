@@ -1,0 +1,25 @@
+._connect_with_us {
+  .divider {
+    height: 50px;
+    background-repeat: repeat no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  .section_head {
+    margin-bottom: 30px;
+  }
+  .accops_btn {
+    min-width: 170px;
+  }
+  .heading {
+    @media screen and (min-width: 993px) {
+      font-size: 44px;
+    }
+  }
+  .subtitle {
+    @media screen and (min-width: 993px) {
+      font-weight: normal;
+      font-size: 44px;
+    }
+  }
+}

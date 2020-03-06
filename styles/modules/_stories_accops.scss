@@ -1,0 +1,31 @@
+._stories_accops {
+  .item {
+    &:last-child {
+      .story_card {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .story_card {
+    margin-bottom: 40px;
+    @media screen and (min-width: 993px) {
+      height: 100%;
+    }
+    .icon {
+      height: 100px;
+      width: 100px;
+      object-fit: contain;
+      @media screen and (min-width: 993px) {
+        height: 200px;
+        width: 250px;
+      }
+    }
+    .title {
+      @include Text-Style-7;
+    }
+    .desc {
+      @include Text-Style-5;
+      margin-bottom: 20px;
+    }
+  }
+}

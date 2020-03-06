@@ -1,0 +1,37 @@
+{
+  "name": "nuxt-boiler-plate",
+  "version": "0.0.0",
+  "description": "Boiler plate for Nuxtjs webapp with PWA enabled, conventional changelogs, SCSS global insertions of variables, global-components and lottie implemented.",
+  "author": "Adarsh Smit",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "analyse": "npx nuxt build -a",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "release": "standard-version"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "bootstrap": "^4.1.3",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "@nuxtjs/device": "^1.2.6",
+    "bootstrap-vue": "^2.0.0",
+    "nuxt": "^2.0.0",
+    "remarkable": "^2.0.0",
+    "vue-lottie-ssr": "git+https://github.com/serzz1990/vue-lottie.git"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "raw-loader": "^4.0.0",
+    "sass-loader": "^8.0.2",
+    "standard-version": "^7.1.0",
+    "webpack": "^4.0.0"
+  },
+  "standard-version": {
+    "changelogHeader": "---\nProperty of (axis) <change to whatever is required.>\n"
+  }
+}

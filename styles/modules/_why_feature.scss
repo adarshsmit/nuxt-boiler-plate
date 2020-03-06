@@ -1,0 +1,48 @@
+._why_feature {
+  .sales_col {
+    position: relative;
+    &::after {
+      content: "";
+      @include absolute($top: unset, $left: 0, $right: unset, $bottom: 20px, $transform: unset);
+      @include height-width($width: calc(100% - 15px), $height: 1px);
+      background: rgba(151, 151, 151, 0.39);
+    }
+    &:nth-child(2n) {
+      &::after {
+        left: unset;
+        right: 0;
+      }
+    }
+    &.last-item {
+      .sales_item {
+        padding-bottom: 0;
+      }
+      &::after {
+        content: none;
+      }
+    }
+    &:nth-child(2n) {
+      .sales_item {
+        &::before {
+          content: none;
+        }
+      }
+    }
+  }
+  .sales_item {
+    padding-bottom: 40px;
+    position: relative;
+    &::before {
+      content: "";
+      @include absolute($top: 0, $left: -15px, $right: unset, $bottom: unset, $transform: unset);
+      @include height-width($width: 1px, $height: 100%);
+      background: rgba(151, 151, 151, 0.39);
+    }
+    .desc {
+      @include Text-Style-44;
+    }
+  }
+  .subdesc {
+    @include Text-Style-9;
+  }
+}

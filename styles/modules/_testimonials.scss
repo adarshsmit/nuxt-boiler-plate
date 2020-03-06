@@ -1,0 +1,68 @@
+._testimonials {
+  .section_head {
+    .heading {
+      margin-bottom: 10px;
+    }
+  }
+  .slick-list {
+    @media screen and (max-width: 993px) {
+      padding: 0 20% 0 0 !important;
+    }
+  }
+  .slick-center {
+    .testimonial_card {
+      position: relative;
+      z-index: 1;
+    }
+    .item {
+      opacity: 1 !important;
+      transform: scaleY(1) !important;
+    }
+  }
+  .testimonial_carousel {
+    padding-top: 30px;
+    .item {
+      border: 5px solid white;
+      opacity: 0.4;
+      transform: scaleY(0.8);
+      transition: 0.3s all ease-in-out;
+    }
+    .testimonial_card {
+      padding: 20px;
+      border-radius: 12px;
+      border: solid 2px rgba(240, 91, 48, 0.8);
+      @media screen and (min-width: 993px) {
+        padding: 50px;
+      }
+      .review {
+        @include Text-Style-15;
+        padding: 20px 0;
+      }
+      .quotes {
+        img {
+          @media screen and (max-width: 768px) {
+            height: 25px;
+          }
+        }
+      }
+      .author_pic {
+        height: 30px;
+        width: 30px;
+        object-fit: contain;
+        border-radius: 100%;
+        margin-right: 10px;
+        @media screen and (min-width: 993px) {
+          height: 50px;
+          width: 50px;
+        }
+      }
+      .name {
+        @include Text-Style-16;
+        margin-bottom: 5px;
+      }
+      .desdignation {
+        @include Text-Style-17;
+      }
+    }
+  }
+}

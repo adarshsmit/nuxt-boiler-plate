@@ -1,0 +1,267 @@
+/* Mobile spacing starts here*/
+// 5px
+.pb_mob_5 {
+  @media screen and (max-width: 992px) {
+    padding-bottom: 5px;
+  }
+}
+.pt_mob_5 {
+  @media screen and (max-width: 992px) {
+    padding-top: 5px;
+  }
+}
+.py_mob_5 {
+  @media screen and (max-width: 992px) {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+// 10px
+.pb_mob_10 {
+  @media screen and (max-width: 992px) {
+    padding-bottom: 10px;
+  }
+}
+.pt_mob_10 {
+  @media screen and (max-width: 992px) {
+    padding-top: 10px;
+  }
+}
+.py_mob_10 {
+  @media screen and (max-width: 992px) {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+// 15px
+.pb_mob_15 {
+  @media screen and (max-width: 992px) {
+    padding-bottom: 15px;
+  }
+}
+.pt_mob_15 {
+  @media screen and (max-width: 992px) {
+    padding-top: 15px;
+  }
+}
+.py_mob_15 {
+  @media screen and (max-width: 992px) {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+// 20px
+.pb_mob_20 {
+  @media screen and (max-width: 992px) {
+    padding-bottom: 20px;
+  }
+}
+.pt_mob_20 {
+  @media screen and (max-width: 992px) {
+    padding-top: 20px;
+  }
+}
+.py_mob_20 {
+  @media screen and (max-width: 992px) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+// 30px
+.pb_mob_30 {
+  @media screen and (max-width: 992px) {
+    padding-bottom: 30px;
+  }
+}
+.pt_mob_30 {
+  @media screen and (max-width: 992px) {
+    padding-top: 30px;
+  }
+}
+.py_mob_30 {
+  @media screen and (max-width: 992px) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+.mb_mob_30 {
+  @media screen and (max-width: 992px) {
+    margin-bottom: 30px;
+  }
+}
+.mt_mob_30 {
+  @media screen and (max-width: 992px) {
+    margin-top: 30px;
+  }
+}
+.my_mob_30 {
+  @media screen and (max-width: 992px) {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+// 35px
+.mb_mob_35 {
+  @media screen and (max-width: 992px) {
+    margin-bottom: 35px;
+  }
+}
+.mt_mob_35 {
+  @media screen and (max-width: 992px) {
+    margin-top: 35px;
+  }
+}
+.my_mob_35 {
+  @media screen and (max-width: 992px) {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+}
+
+// 40px
+.mb_mob_40 {
+  @media screen and (max-width: 992px) {
+    margin-bottom: 40px;
+  }
+}
+.mt_mob_40 {
+  @media screen and (max-width: 992px) {
+    margin-top: 40px;
+  }
+}
+.my_mob_40 {
+  @media screen and (max-width: 992px) {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
+// 50px
+.pb_mob_50 {
+  @media screen and (max-width: 992px) {
+    padding-bottom: 50px;
+  }
+}
+.pt_mob_50 {
+  @media screen and (max-width: 992px) {
+    padding-top: 50px;
+  }
+}
+.py_mob_50 {
+  @media screen and (max-width: 992px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+// 100px
+.pb_mob_100 {
+  @media screen and (max-width: 992px) {
+    padding-bottom: 100px;
+  }
+}
+.pt_mob_100 {
+  @media screen and (max-width: 992px) {
+    padding-top: 100px;
+  }
+}
+.py_mob_100 {
+  @media screen and (max-width: 992px) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+/* Desktop spacing starts here*/
+
+// 20px
+.pb_20 {
+  @media screen and (min-width: 993px) {
+    padding-bottom: 20px;
+  }
+}
+.pt_20 {
+  @media screen and (min-width: 993px) {
+    padding-top: 20px;
+  }
+}
+.py_20 {
+  @media screen and (min-width: 993px) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+// 30px
+.pb_30 {
+  @media screen and (min-width: 993px) {
+    padding-bottom: 30px;
+  }
+}
+.pt_30 {
+  @media screen and (min-width: 993px) {
+    padding-top: 30px;
+  }
+}
+.py_30 {
+  @media screen and (min-width: 993px) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+// 50px
+.pb_50 {
+  @media screen and (min-width: 993px) {
+    padding-bottom: 50px;
+  }
+}
+.pt_50 {
+  @media screen and (min-width: 993px) {
+    padding-top: 50px;
+  }
+}
+.py_50 {
+  @media screen and (min-width: 993px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+// 100px
+.pb_100 {
+  @media screen and (min-width: 993px) {
+    padding-bottom: 100px;
+  }
+}
+.pt_100 {
+  @media screen and (min-width: 993px) {
+    padding-top: 100px;
+  }
+}
+.py_100 {
+  @media screen and (min-width: 993px) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+.mb_100 {
+  @media screen and (min-width: 993px) {
+    margin-bottom: 100px;
+  }
+}
+.mt_100 {
+  @media screen and (min-width: 993px) {
+    margin-top: 100px;
+  }
+}
+.my_100 {
+  @media screen and (min-width: 993px) {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}

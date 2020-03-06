@@ -1,0 +1,10 @@
+.heading {
+  @include Text-Style;
+}
+.section_desc {
+  @include Text-Style-5;
+  @media screen and (min-width: 993px) {
+    font-size: 25px;
+    color: $brownish-grey;
+  }
+}

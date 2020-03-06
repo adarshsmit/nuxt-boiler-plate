@@ -1,0 +1,46 @@
+._use_case {
+  .nav-tabs {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    border: none;
+
+    .nav-link {
+      @include Text-Style-40;
+      transition: 0.3s all ease;
+      border: none;
+      position: relative;
+      &::after {
+        content: "";
+        @include height-width($width: 0, $height: 2px);
+        background-color: $tomato-two;
+        @include absolute($top: unset, $left: 50%, $right: unset, $bottom: 0, $transform: translate(0, 0));
+        transition: 0.3s all ease;
+      }
+      &.active {
+        color: $tomato-two;
+        &::after {
+          width: 100%;
+          left: 0;
+        }
+      }
+    }
+  }
+  .image_Wrapper {
+    margin-bottom: 30px;
+  }
+  li {
+    margin-bottom: 30px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    .title {
+      @include Text-Style-42;
+      margin-bottom: 10px;
+    }
+    .desc {
+      @include Text-Style-9;
+    }
+  }
+}

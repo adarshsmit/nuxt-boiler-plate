@@ -1,0 +1,117 @@
+// pulse grow scss
+@-webkit-keyframes pulse-grow-on-hover {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+@keyframes pulse-grow-on-hover {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+.pulse-grow-on-hover {
+  position: relative;
+  &:hover {
+    color: $tomato-two;
+    &::before {
+      width: 100%;
+      right: 0;
+    }
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    right: 50%;
+    bottom: 0;
+    width: 0;
+    height: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+    z-index: -1;
+  }
+}
+
+// shutter in horizontal
+.shutter-in-horizontal {
+  position: relative;
+  transition: 0.3s all ease-in-out;
+
+  &:hover {
+    background: inherit !important;
+    color: $white !important;
+    img {
+      filter: brightness(0) invert(1);
+    }
+
+    &::before,
+    &::after {
+      width: 51%;
+      height: 100%;
+    }
+  }
+  &::before {
+    right: 0;
+  }
+
+  &::after {
+    left: 0;
+  }
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    height: 100%;
+    background-color: $tomato-two;
+    transition: 0.3s all ease-in-out;
+    z-index: -1;
+  }
+}
+
+// links on hover footer
+.nav_on_hover {
+  position: relative;
+  &:hover {
+    &::before {
+      opacity: 1;
+      width: 100%;
+    }
+    &::after {
+      opacity: 1;
+      width: 100%;
+    }
+  }
+  &::before {
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    right: 0;
+    top: -5px;
+    height: 2px;
+    content: "";
+    background: $tomato-two;
+    transition: all 0.3s ease-in-out;
+  }
+  &::after {
+    position: absolute;
+    opacity: 0;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -8px;
+    content: "";
+    background: $tomato-two;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.alt_hover {
+  transition: 0.3s all ease-in-out;
+  &:hover {
+    color: $tomato-two !important;
+  }
+}

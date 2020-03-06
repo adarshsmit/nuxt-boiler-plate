@@ -1,0 +1,17 @@
+@mixin background-image($image, $position, $size) {
+  background-image: $image;
+  background-repeat: no-repeat;
+  background-position: $position;
+  background-size: $size;
+}
+@mixin absolute($top, $left, $right, $bottom, $transform) {
+  position: absolute;
+  top: $top;
+  left: $left;
+  bottom: $bottom;
+  transform: $transform;
+}
+@mixin height-width($width, $height) {
+  height: $height;
+  width: $width;
+}

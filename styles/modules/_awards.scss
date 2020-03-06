@@ -1,0 +1,32 @@
+._awards {
+  .section_head {
+    margin-bottom: 30px;
+    @media screen and (min-width: 993px) {
+      margin-bottom: 10px;
+    }
+  }
+  .heading {
+    margin-bottom: 10px;
+  }
+  .image_wrapper {
+    margin-bottom: 30px;
+    @media screen and (min-width: 993px) {
+      margin-bottom: 0;
+    }
+  }
+  .client_logo {
+    margin: 0 auto;
+  }
+  .award {
+    left: 50%;
+    position: absolute;
+    top: 22%;
+    transform: translate(-50%, -22%);
+    width: 70px;
+    filter: grayscale(100%);
+    @media screen and (max-width: 768px) {
+      height: 30px;
+      width: 70px;
+    }
+  }
+}

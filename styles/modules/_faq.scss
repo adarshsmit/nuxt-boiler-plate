@@ -1,0 +1,37 @@
+._faq {
+  a {
+    &:focus {
+      outline: none;
+    }
+  }
+  .card {
+    border: none;
+    margin: 0 !important;
+  }
+  header {
+    padding: 15px 10px;
+    background: $white-five;
+    a {
+      @include Text-Style-48;
+      transition: 0.3s all ease-in-out;
+    }
+  }
+  .card-body {
+    background: $white;
+    border: solid 1px $white-five;
+    @include Text-Style-49;
+  }
+  .btn-info {
+    background: none !important;
+    border: none;
+    &.collapsed {
+      color: #727272;
+      @include Text-Style-47;
+    }
+    &:focus {
+      color: #727272;
+      box-shadow: none;
+      border-color: none;
+    }
+  }
+}

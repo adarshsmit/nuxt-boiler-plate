@@ -1,0 +1,134 @@
+.accops_overlay {
+  position: relative;
+  &::after {
+    content: " ";
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.32) 40%, black 90%);
+    height: 100%;
+    width: 100%;
+    border-radius: 12px !important;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+  }
+}
+button {
+  &:focus {
+    outline: none !important;
+  }
+}
+.alt_cta1 {
+  @include Text-Style-3;
+  border: 3px solid transparent !important;
+}
+.cusor_pointer {
+  cursor: pointer;
+}
+* {
+  &:focus {
+    outline: none !important;
+  }
+}
+// overlay code
+.container {
+  @media screen and (min-width: 1600px) {
+    max-width: 1340px;
+  }
+}
+.overlay {
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100vw;
+    background-color: $light-peach;
+    opacity: 0.41;
+  }
+}
+
+// main margin for header
+.accops_mb_gutter {
+  @media screen and (max-width: 768px) {
+    margin: 0 -20px;
+  }
+}
+// no mobile gutters
+.no_mob_gutters {
+  @media screen and (max-width: 768px) {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+.flex-1 {
+  flex: 1;
+}
+a {
+  text-decoration: none !important;
+}
+
+// Ctas Starts here
+.accops_btn {
+  z-index: 2;
+  padding: 10px 20px;
+}
+.brand_cta_1 {
+  .accops_btn {
+    background-color: $tomato !important;
+    @include Text-Style-11;
+    border: 1px solid transparent;
+    &.cta_alt_font {
+      // font-size: 18px !important;
+      @media screen and (min-width: 993px) {
+        font-size: 24px !important;
+      }
+    }
+  }
+}
+.brand_cta_2 {
+  .accops_btn {
+    background-color: transparent;
+    @include Text-Style-6;
+    border: solid 1px $tomato-two;
+  }
+  .btn_arrow {
+    height: 15px;
+    width: 12px;
+  }
+}
+.cta_alt_font {
+  .accops_btn {
+    @media screen and (min-width: 993px) {
+      font-size: 24px !important;
+    }
+  }
+}
+.alt_border {
+  .accops_btn {
+    border: solid 3px $tomato-two;
+  }
+}
+
+// sectional spacings
+.mt_section {
+  margin-top: 60px;
+  @media screen and (min-width: 993px) {
+    margin-top: 200px;
+  }
+}
+.mb_section {
+  margin-bottom: 60px;
+  @media screen and (min-width: 993px) {
+    margin-bottom: 200px;
+  }
+}
+.my_section {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  @media screen and (min-width: 993px) {
+    margin-top: 200px;
+    margin-bottom: 200px;
+  }
+}

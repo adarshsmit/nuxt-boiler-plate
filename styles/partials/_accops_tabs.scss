@@ -1,0 +1,39 @@
+.accops_tabs {
+  .nav-tabs {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: scroll;
+    border: solid 1px $white-three;
+    @media screen and (min-width: 993px) {
+      overflow: visible;
+      max-width: 80%;
+      margin: auto;
+    }
+  }
+  .nav-item {
+    flex: 0 0 31.33%;
+    margin-bottom: 0 !important;
+    border-right: 1px solid $white-three;
+    @media screen and (min-width: 993px) {
+      flex: 1;
+    }
+    &:last-child {
+      border-right: 0;
+    }
+    .nav-link {
+      @include Text-Style-20;
+      text-align: center;
+      transition: 0.3s all ease-in-out;
+      &:hover {
+        border-radius: 0;
+        border-color: $tomato-two;
+        color: $tomato-two;
+      }
+      &.active {
+        border-radius: 0;
+        background: $tomato-two;
+        color: $white;
+      }
+    }
+  }
+}

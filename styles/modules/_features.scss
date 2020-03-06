@@ -1,0 +1,23 @@
+._features {
+  .section_heading {
+    padding-bottom: 20px;
+    border-bottom: solid 1px rgba(151, 151, 151, 0.39);
+  }
+  .feature_items {
+    margin-bottom: 40px;
+    .title {
+      @include Text-Style-7;
+    }
+    .desc {
+      @include Text-Style-5;
+    }
+    .image_wrapper {
+      margin-bottom: 20px;
+      img {
+        @include height-width($height: 150px, $width: 100%);
+        object-fit: cover;
+        border-radius: 12px;
+      }
+    }
+  }
+}

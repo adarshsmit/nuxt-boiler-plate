@@ -1,0 +1,428 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&display=swap");
+@mixin Text-Style {
+  font-family: "Barlow", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.24;
+  text-align: center;
+  color: #282828;
+  @media screen and (min-width: 993px) {
+    font-size: 56px;
+  }
+}
+
+@mixin Text-Style-7 {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  color: #282828;
+  @media screen and (min-width: 993px) {
+    font-size: 25px;
+  }
+}
+
+@mixin Text-Style-4 {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.33;
+  text-align: center;
+  color: #282828;
+  @media screen and (min-width: 993px) {
+    font-size: 25px;
+  }
+}
+
+@mixin Text-Style-3 {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+}
+
+@mixin Text-Style-6 {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: #f05b30;
+  @media screen and (min-width: 993px) {
+    font-size: 20px !important;
+  }
+}
+
+@mixin Text-Style-5 {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: center;
+  color: #6f6f6f;
+  @media screen and (min-width: 993px) {
+    font-size: 20px;
+  }
+}
+
+@mixin Text-Style-2 {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.43;
+  text-align: center;
+  color: #5c5c5c;
+  @media screen and (min-width: 993px) {
+    font-size: 35px;
+  }
+}
+
+@mixin Text-Style-8 {
+  font-family: "Barlow", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1.24;
+  text-align: center;
+  color: #f25b30;
+  @media screen and (min-width: 993px) {
+    font-size: 56px;
+  }
+}
+@mixin Text-Style-9 {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: center;
+  color: #5c5c5c;
+  @media screen and (min-width: 993px) {
+    font-size: 25px;
+  }
+}
+@mixin Text-Style-10 {
+  font-family: "Barlow", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.24;
+  text-align: center;
+  color: $tomato-two;
+  @media screen and (min-width: 993px) {
+    font-size: 56px;
+  }
+}
+@mixin Text-Style-11 {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: $white;
+  @media screen and (min-width: 993px) {
+    font-size: 20px;
+  }
+}
+
+@mixin Text-Style-13 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1;
+  text-align: center;
+  color: $white;
+  @media screen and (min-width: 993px) {
+    font-size: 12px;
+  }
+}
+@mixin Text-Style-12 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  color: $white;
+  @media screen and (min-width: 993px) {
+    font-size: 24px;
+  }
+}
+@mixin Text-Style-14 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  color: $white;
+  @media screen and (min-width: 993px) {
+    font-size: 48px;
+  }
+}
+@mixin Text-Style-15 {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  line-height: 1.57;
+  color: $black;
+  @media screen and (min-width: 993px) {
+    font-size: 24px;
+  }
+}
+@mixin Text-Style-16 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  color: $black;
+  @media screen and (min-width: 993px) {
+    font-size: 24px;
+  }
+}
+@mixin Text-Style-17 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+  color: #5c5c5c;
+  @media screen and (min-width: 993px) {
+    font-size: 18px;
+  }
+}
+@mixin Text-Style-18 {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.43;
+  text-align: center;
+  color: $black;
+  @media screen and (min-width: 993px) {
+    font-size: 25px;
+  }
+}
+@mixin Text-Style-19 {
+  font-family: "Barlow", sans-serif;
+  font-size: 12px;
+  line-height: 1;
+  color: $white;
+}
+@mixin Text-Style-20 {
+  font-family: "Barlow", sans-serif;
+  font-size: 12px;
+  line-height: 1;
+  color: #050505;
+  @media screen and (min-width: 993px) {
+    font-size: 20px;
+  }
+}
+@mixin Text-Style-21 {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1;
+  color: $black;
+  @media screen and (min-width: 993px) {
+    font-size: 24px;
+  }
+}
+@mixin Text-Style-22 {
+  font-family: "Barlow", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 1;
+  color: $tomato-two;
+  @media screen and (min-width: 993px) {
+    font-size: 54px;
+  }
+}
+@mixin Text-Style-23 {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1;
+  color: $white;
+  @media screen and (min-width: 993px) {
+    font-size: 30px;
+  }
+}
+@mixin Text-Style-24 {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+  color: $white;
+  @media screen and (min-width: 993px) {
+    font-size: 25px;
+  }
+}
+@mixin Text-Style-25 {
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: $white;
+}
+@mixin Text-Style-26 {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.86;
+  text-align: center;
+  color: $tomato-four;
+  @media screen and (min-width: 993px) {
+    font-size: 24px;
+  }
+}
+@mixin Text-Style-27 {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  line-height: 1.86;
+  text-align: center;
+  color: $white;
+  @media screen and (min-width: 993px) {
+    font-size: 20px;
+  }
+}
+@mixin Text-Style-28 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 12px;
+  line-height: 1;
+  text-align: center;
+  color: $warm-grey-two;
+  @media screen and (min-width: 993px) {
+    font-size: 16px;
+  }
+}
+@mixin Text-Style-29 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 12px;
+  line-height: 1;
+  color: $warm-grey-two;
+  @media screen and (min-width: 993px) {
+    font-size: 16px;
+  }
+}
+@mixin Text-Style-30 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 24px;
+  color: $black;
+}
+@mixin Text-Style-31 {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.56;
+  color: $black;
+}
+@mixin Text-Style-32 {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+  color: $warm-grey;
+}
+@mixin Text-Style-33 {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  color: rgba(40, 40, 40, 0.7);
+}
+@mixin Text-Style-34 {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  line-height: 1;
+  color: $black;
+}
+@mixin Text-Style-35 {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: $tomato-two;
+}
+@mixin Text-Style-36 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.42;
+  color: $white;
+}
+@mixin Text-Style-37 {
+  font-family: "Roboto", sans-serif;
+  font-size: 174px;
+  text-align: center;
+  color: $tomato-two;
+}
+@mixin Text-Style-38 {
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: $black;
+}
+@mixin Text-Style-39 {
+  font-family: "Barlow", sans-serif;
+  font-size: 70px;
+  font-weight: 600;
+  color: $black;
+}
+@mixin Text-Style-40 {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: #050505;
+}
+@mixin Text-Style-41 {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.33;
+  text-align: center;
+  color: #050505;
+}
+@mixin Text-Style-42 {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  color: $black;
+}
+@mixin Text-Style-43 {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: $tomato-two;
+}
+@mixin Text-Style-44 {
+  font-family: "Barlow", sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  color: $black;
+}
+@mixin Text-Style-45 {
+  font-family: "Barlow", sans-serif;
+  font-size: 12px;
+  line-height: 1.25;
+  color: #727272;
+}
+@mixin Text-Style-46 {
+  font-family: "Barlow", sans-serif;
+  font-size: 12px;
+  line-height: 1;
+  color: #898989;
+}
+@mixin Text-Style-47 {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  color: #727272;
+}
+@mixin Text-Style-48 {
+  font-family: "Barlow", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  color: $black;
+}
+@mixin Text-Style-49 {
+  font-family: "Barlow", sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #898989;
+}
