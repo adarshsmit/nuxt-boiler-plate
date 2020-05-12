@@ -17,7 +17,9 @@ export default {
   },
   mounted() {
     if (process.client) {
-      const draggable = new PlainDraggable(this.$refs.draggable);
+      setTimeout(() => {
+        const draggable = new PlainDraggable(this.$refs.draggable);
+      }, 100);
       // draggable.snap = { step: 5 };
     }
   }
