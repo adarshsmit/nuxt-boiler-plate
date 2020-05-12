@@ -1,6 +1,7 @@
 <template>
   <div>
     <nuxt-link to="/lottie">lottie link</nuxt-link>
+    <nuxt-link to="/drag">Draggable</nuxt-link>
     <changelogs />
   </div>
 </template>
