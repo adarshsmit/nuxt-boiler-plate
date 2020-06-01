@@ -1,6 +1,6 @@
 {
   "name": "nuxt-boiler-plate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Boiler plate for Nuxtjs webapp with PWA enabled, conventional changelogs, SCSS global insertions of variables, global-components and lottie implemented.",
   "author": "Adarsh Smit",
   "private": true,
