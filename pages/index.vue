@@ -2,6 +2,7 @@
   <div>
     <nuxt-link to="/lottie">lottie link</nuxt-link>
     <nuxt-link to="/drag">Draggable</nuxt-link>
+    <nuxt-link to="/daterange">DateRangePicker</nuxt-link>
     <changelogs />
   </div>
 </template>
