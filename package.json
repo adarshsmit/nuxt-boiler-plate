@@ -25,7 +25,7 @@
     "vue-lottie-ssr": "git+https://github.com/serzz1990/vue-lottie.git"
   },
   "devDependencies": {
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "raw-loader": "^4.0.0",
     "sass-loader": "^8.0.2",
     "standard-version": "^7.1.0",
